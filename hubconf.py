@@ -7,7 +7,7 @@
 # Optional list of dependencies required by the package
 dependencies = ['torch', 'torchvision']
 
-from torch.hub import load_state_dict_from_url
+from hub import load_state_dict_from_url
 from torchvision.models.resnet import ResNet, Bottleneck
 
 
